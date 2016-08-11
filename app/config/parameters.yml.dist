@@ -1,0 +1,19 @@
+# This file is a "template" of what your parameters.yml file should look like
+# Set parameters here that may be different on each deployment target of the app, e.g. development, staging, production.
+# http://symfony.com/doc/current/best_practices/configuration.html#infrastructure-related-configuration
+parameters:
+    database_host:     127.0.0.1
+    database_port:     ~
+    database_name:     blogdb
+    database_user:     matejerc_aymen
+    database_password: api_platform
+
+    mailer_transport:  gmail
+    mailer_host:       127.0.0.1
+    mailer_user:       ~
+    mailer_password:   ~
+
+    # A secret key that's used to generate certain security-related tokens
+    secret:            8084f649492a377cba6a0b5d39e9da4795003195712e8c495a
+
+    cors_allow_origin: http://localhost
